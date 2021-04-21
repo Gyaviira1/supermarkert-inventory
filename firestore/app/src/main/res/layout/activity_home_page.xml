@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/wallp"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="Welome to"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Fair Price Inventory App"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home page"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:fontFamily="@font/aclonica"
+            android:textSize="20dp"
+            android:layout_marginTop="16dp"
+            />
+
+        <Button
+            android:id="@+id/admin"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:text="Login As Admin"
+            android:textColor="@color/black"
+            android:fontFamily="@font/aclonica"
+            android:background="@color/cardview_light_background"
+            app:backgroundTint="@color/white" />
+        <Button
+            android:id="@+id/user"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:text="Login As User"
+            android:textColor="@color/black"
+            android:fontFamily="@font/aclonica"
+            android:background="@color/cardview_light_background"
+            app:backgroundTint="@color/white" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New user? contact ur admin to have account"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/aclonica"
+            android:id="@+id/forgotpasswordclickhere"
+            android:textColor="@color/design_default_color_secondary"/>
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbar"
+            android:visibility="invisible"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

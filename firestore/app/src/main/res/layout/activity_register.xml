@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallp"
+    tools:context=".Register">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Fair Price Inventory App"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create new user account"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:fontFamily="@font/aclonica"
+            android:textSize="16dp"
+            android:layout_marginTop="16dp"
+            />
+
+        <EditText
+            android:id="@+id/fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:hint="Full Name"
+            android:padding="10dp"
+            android:textSize="14dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColorHint="@color/cardview_light_background"
+            android:inputType="textPersonName"
+            android:textColor="#BDA9A9" />
+        <EditText
+            android:id="@+id/email"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:hint="Email Address"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:padding="10dp"
+            android:textColorHint="@color/cardview_light_background"
+            android:inputType="textEmailAddress"
+            android:textColor="#BDA9A9" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:hint="Password"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:padding="10dp"
+            android:textColorHint="@color/cardview_light_background"
+            android:inputType="textPassword"
+            android:textColor="#BDA9A9" />
+        <EditText
+            android:id="@+id/telphone"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:hint="Telephone"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:padding="10dp"
+            android:textColorHint="@color/cardview_light_background"
+            android:inputType="phone"
+            android:textColor="#BDA9A9" />
+        <EditText
+            android:id="@+id/address"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:hint="Address"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:padding="10dp"
+            android:textColorHint="@color/cardview_light_background"
+            android:inputType="textPersonName"
+            android:textColor="#BDA9A9" />
+
+        <Button
+            android:id="@+id/registerbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:text="Register"
+            android:textColor="@color/black"
+            android:fontFamily="@font/aclonica"
+            android:background="@color/cardview_light_background"
+            app:backgroundTint="@color/white" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="already registered?Login Here"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/aclonica"
+            android:id="@+id/alreadyrigesterd"
+            android:textColor="@color/design_default_color_secondary"/>
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressbar"
+            android:visibility="invisible"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
